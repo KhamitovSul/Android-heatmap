@@ -1,0 +1,65 @@
+/* Цвета интерфейса. Цвет пустой клетки дублируется в src/lib/intensity.ts (EMPTY_CELL). */
+:root {
+  color-scheme: light;
+  --bg: #edf0f4;
+  --surface: #ffffff;
+  --surface-2: #f4f6f9;
+  --ink: #16202c;
+  --ink-2: #4a5566;
+  --muted: #6f7b8c;
+  --line: #dce2ea;
+  --cell-empty: #e3e8ef;
+  --track: #e6eaf0;
+  --focus: #2a78d6;
+  --danger: #c23030;
+  --btn-bg: #16202c;
+  --btn-ink: #ffffff;
+  --tooltip-bg: #16202c;
+  --tooltip-ink: #ffffff;
+  --shadow: 0 1px 2px rgba(22, 32, 44, 0.05), 0 12px 32px -18px rgba(22, 32, 44, 0.25);
+
+  --font-body: 'Golos Text', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Unbounded', 'Golos Text', system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #10151c;
+    --surface: #18202a;
+    --surface-2: #1e2732;
+    --ink: #e8ecf2;
+    --ink-2: #b2bbc8;
+    --muted: #8591a2;
+    --line: #2a3442;
+    --cell-empty: #232c38;
+    --track: #242e3a;
+    --focus: #5f9ff0;
+    --danger: #f06464;
+    --btn-bg: #e8ecf2;
+    --btn-ink: #10151c;
+    --tooltip-bg: #e8ecf2;
+    --tooltip-ink: #10151c;
+    --shadow: none;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #10151c;
+  --surface: #18202a;
+  --surface-2: #1e2732;
+  --ink: #e8ecf2;
+  --ink-2: #b2bbc8;
+  --muted: #8591a2;
+  --line: #2a3442;
+  --cell-empty: #232c38;
+  --track: #242e3a;
+  --focus: #5f9ff0;
+  --danger: #f06464;
+  --btn-bg: #e8ecf2;
+  --btn-ink: #10151c;
+  --tooltip-bg: #e8ecf2;
+  --tooltip-ink: #10151c;
+  --shadow: none;
+}

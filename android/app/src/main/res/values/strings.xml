@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Android heatmap</string>
+    <string name="title_activity_main">Android heatmap</string>
+    <string name="package_name">com.activityheatmap.android</string>
+    <string name="custom_url_scheme">com.activityheatmap.android</string>
+</resources>
